@@ -1,5 +1,5 @@
 // Realiza uma requisição para obter os dados dos filmes a partir da API clenio teste 
-fetch('http://localhost:3000/filmes')
+fetch('http://localhost:3000' )// antes http://localhost:3000/filmes'
   .then(response => response.json()) // Converte a resposta em JSON
   .then(body => {
     const listaFilmes = document.getElementById('lista-filmes'); // Obtém a lista de filmes na página
